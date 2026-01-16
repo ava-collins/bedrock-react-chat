@@ -49,6 +49,12 @@ python -c "import strands; print('strands-agents installed successfully!')"
 
 ## Usage
 
+**NOTE** This demo requires an AWS SSO connection to an account with a Bedrock Knowledge Base, see `.env_example` for required params.
+
+Login with AWS CLI at [https://d-90661d9b10.awsapps.com/start](https://d-90661d9b10.awsapps.com/start)
+
+Set a profile with name to be used in `AWS_PROFILE` var below
+
 Each time you open a new terminal, activate the virtual environment:
 
 ```bash
@@ -77,4 +83,3 @@ When finished with runtime deactivate
 deactivate
 ```
 
-**NOTE** This demo requires an AWS SSO connection to an account with a Bedrock Knowledge Base, see `.env_example` for required params.
