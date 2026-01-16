@@ -1,6 +1,12 @@
 # bedrock-react-chat
 
-How it works
+## Demo
+
+[Watch the demo video](https://github.com/ava-collins/bedrock-react-chat/issues/1)
+
+
+
+## How it works
 
 `User Question → Agent → search_react_docs tool → Bedrock KB (Y3DV2SUPP9) → S3 React Docs → Answer`
 
